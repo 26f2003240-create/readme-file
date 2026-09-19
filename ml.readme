@@ -1,0 +1,180 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNvt3f3QAFZZdzTXELQFtN6",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/26f2003240-create/readme-file/blob/main/ml.readme\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Cscf8kIJprbt",
+        "outputId": "a85cb6fd-62d8-4ee9-c42a-bcdcc88a26ce"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello\n"
+          ]
+        }
+      ],
+      "source": [
+        "print('hello')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "pip install numpy"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FydGzU-apz8G",
+        "outputId": "8b6542a4-2086-4ee4-9fbd-46d096dfe199"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Requirement already satisfied: numpy in /usr/local/lib/python3.13/dist-packages (2.1.3)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "import pandas as pd"
+      ],
+      "metadata": {
+        "id": "jcPfdTeZp0Ec"
+      },
+      "execution_count": 4,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# Define the columns and rows\n",
+        "data = {\n",
+        "    'Name': ['Alice', 'Bob', 'Charlie'],\n",
+        "    'Age': [25,30,21] ,\n",
+        "    'City': ['New York', 'London', 'Paris']\n",
+        "}\n",
+        "\n",
+        "# Create the table (DataFrame)\n",
+        "df = pd.DataFrame(data)\n",
+        "\n",
+        "print(df)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Bt6NyaXhp0Hz",
+        "outputId": "79466ec1-529e-4ae8-e4aa-9cb326478e1d"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "      Name  Age      City\n",
+            "0    Alice   25  New York\n",
+            "1      Bob   30    London\n",
+            "2  Charlie   21     Paris\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "wcJb9gLSp0Ka"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "h03fnwHWp0My"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "kWC-xPbJp0PF"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Lcq1Ja_Up0Rt"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "XVbfuMFvp0UT"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "3_j6Uz_Wp0W5"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
